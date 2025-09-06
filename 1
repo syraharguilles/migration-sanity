@@ -1,0 +1,24 @@
+(node:91218) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+- Running migration "import-wp"
+(node:91239) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Error fetching data for page 2: TypeError: Cannot read properties of null (reading 'length')
+    at migrate (/Users/newparts/projects/sanity/migrations/import-wp/index.ts:53:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:221:22
+    at async tap (/Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:949:20)
+    at async toSanityMutations (/Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:973:20)
+    at async batchMutations (/Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:958:20)
+    at async tap (/Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:949:20)
+    at async toFetchOptionsIterable (/Users/newparts/projects/sanity/node_modules/@sanity/migrate/lib/index.js:986:20)
+    at async file:///Users/newparts/projects/sanity/node_modules/p-map/index.js:216:28
+    at async [Symbol.asyncIterator] (file:///Users/newparts/projects/sanity/node_modules/p-map/index.js:256:34)
+✔ Migration "import-wp" completed.
+
+  Project id:  zpfh5d8a
+  Dataset:     bimmers
+
+  0 documents processed.
+  1 mutations generated.
+  1 transactions committed.
