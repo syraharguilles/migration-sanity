@@ -67,4 +67,4 @@ npx sanity@latest migration run import-wp --type=<Change this to actual Post Typ
 
 ## DEMO ##
 
-https://vimeo.com/1116345004?share=copy
+https://vimeo.com/1116345004
