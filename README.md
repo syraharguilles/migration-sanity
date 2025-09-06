@@ -65,6 +65,6 @@ Sanity is a headless Content Management System (CMS) that provides structured co
 npx sanity@latest migration run import-wp --type=<Change this to actual Post Type> --no-dry-run > sanity-migration.log 2>&1
 ```
 
-#### DEMO ####
+## DEMO ##
 
 https://vimeo.com/1116345004?share=copy
