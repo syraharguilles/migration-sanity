@@ -13,7 +13,7 @@ Sanity is a headless Content Management System (CMS) that provides structured co
 
 #### 1. Clone the Repository: Open your terminal and run ####
 ```bash
-    git clone git@bitbucket.org:teamoda/sanity.git
+    git clone https://github.com/syraharguilles/migration-sanity
 ```
 #### 2. Install Dependencies ####
 ```bash
